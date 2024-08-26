@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.skills-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: block;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 10px;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #777;
+}
+
+/* Section styling for smooth scrolling */
+section {
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+
+/* Add a bit of spacing at the top to account for the header when scrolling */
+section[id] {
+    scroll-margin-top: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Style for the skills list */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Style for the skill bar container */
+.skill-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+/* Style for the actual skill level inside the bar */
+.skill-level {
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+.project {
+    margin: 20px 0;
+}
